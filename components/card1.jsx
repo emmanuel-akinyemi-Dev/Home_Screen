@@ -38,18 +38,18 @@ export default function Card1(){
 
             <View style={cardStyles.nav}>
                 <View style={[cardStyles.innerTextContainer,cardStyles.innerExt3]}>
-                <Text>Adult</Text>
-                <TextInput style={cardStyles.navtouchLeft} placeholder='2' cursorColor='black' />
+                <Text style={cardStyles.text}>Adult</Text>
+                <TextInput style={cardStyles.textInputLeft} placeholder='2' cursorColor='grey' inputMode='decimal' />
                 </View>
 
                 <View style={cardStyles.innerTextContainer}>
-                <Text>Children</Text>
-                <TextInput style={cardStyles.navTouchCenter} />
+                <Text style={cardStyles.text}>Children</Text>
+                <TextInput style={cardStyles.textInputCenter} placeholder='0' cursorColor='grey'inputMode='decimal' />
                 </View>
 
-                <View style={cardStyles.innerTextContainer}>
-                <Text>Rooms</Text>
-                <TextInput style={cardStyles.textInputRight} placeholder='2' cursorColor='black'/>
+                <View style={[cardStyles.innerTextContainer,cardStyles.innerExt3]}>
+                <Text style={cardStyles.text}>Rooms</Text>
+                <TextInput style={cardStyles.textInputRight} placeholder='2' cursorColor='grey' inputMode='decimal'/>
                 </View>
                 
             </View>

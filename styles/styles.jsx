@@ -71,7 +71,6 @@ export const cardStyles = StyleSheet.create({
         width:300,
         height:500,
         backgroundColor:"#DFDFDF",
-        borderWidth:1,
         marginTop:100,
         justifyContent:'space-between',
         alignItems:'center',
@@ -98,9 +97,8 @@ export const cardStyles = StyleSheet.create({
     },
 
     navTouchCenter:{
-        flex:1,
         justifyContent:'center', 
-        alignItems:'center',  
+        alignItems:'center',
         borderLeftWidth:1,
         borderRightWidth:1,
         borderColor:'grey',
@@ -108,23 +106,34 @@ export const cardStyles = StyleSheet.create({
         height:60,
 
     },
+    textInputCenter:{ 
+        justifyContent:'center', 
+        alignItems:'center', 
+        marginLeft:0,
+        fontSize: 17,
+        fontWeight:'bold',
+        color:'#4A4949',
+        width:30, 
 
+    },
     textInputLeft:{
         justifyContent:'center', 
         alignItems:'center', 
-        width:80,
-        height:60,
         marginLeft:0,
-        borderRightWidth:1,
-        borderLeftWidth:1
+        fontSize: 17,
+        fontWeight:'bold',
+        color:'#4A4949',
+        width:30,  
+
     },
     textInputRight:{
         justifyContent:'center', 
         alignItems:'center',
-        width:80,
-        height:50,
-        marginRight:0,
-        borderRightWidth:1, 
+        marginRight:0, 
+        fontSize: 17,
+        fontWeight:'bold',
+        color:'#4A4949',
+        width:30,  
     },
     btnText:{
         color:'white',
@@ -158,9 +167,10 @@ export const cardStyles = StyleSheet.create({
         borderRadius:25,
     },
     innerTextContainer:{
+        flex:1,
         justifyContent:'center', 
         alignItems:'center',
-        height:60, 
+   
     },
     innerExt2:{
         width:125,
@@ -169,6 +179,9 @@ export const cardStyles = StyleSheet.create({
     innerExt:{
         borderLeftWidth:1,
         borderColor:'grey'
+    },
+    innerExt3:{
+        width:80
     },
     text:{
         fontSize:15,
@@ -191,4 +204,18 @@ export const cardStyles = StyleSheet.create({
         color:'#4A4949' 
     },
 
+})
+export const scrollCardStyles = StyleSheet.create({
+    container:{
+            justifyContent:'center',
+            alignItems:'center',
+    },
+
+    Image:{ 
+        top:0,
+        left:0,
+        height:300,
+        opacity:1,
+    }
+    
 })
