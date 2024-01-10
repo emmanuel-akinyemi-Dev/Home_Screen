@@ -11,6 +11,7 @@ import Card1 from "../components/card1";
 import ScrollCard from "../components/scrollCard";
 import Features from "../components/features";
 import Offers from "../components/offers";
+import Explore from "../components/Explore";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <ScrollCard />
         <Features />
         <Offers />
+        <Explore />
       </View>
     </TouchableWithoutFeedback>
   );
