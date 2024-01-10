@@ -38,7 +38,7 @@ function Navigator() {
             tabBarIcon: ({focused})=>{
               return (
                 <View style={{alignItems: "center", justifyContent: "center"}}> 
-                  <Entypo name="home" size={24} color={focused ? "#16247d": "#111"} /> 
+                  <FontAwesome name="home" size={27} color={focused ? "#16247d": "#111"} /> 
             </View>
               )
             }
@@ -51,7 +51,7 @@ function Navigator() {
             tabBarIcon: ({focused})=>{
               return (
                 <View style={{alignItems: "center", justifyContent: "center"}}> 
-                 <Entypo name="heart" size={24} color={focused ? "#16247d": "#111"} />
+                 <FontAwesome name="heart" size={24} color={focused ? "#16247d": "#111"} />
             </View>
               )
             }
@@ -82,7 +82,7 @@ function Navigator() {
             tabBarIcon: ({focused})=>{
               return (
                 <View style={{alignItems: "center", justifyContent: "center"}}> 
-                 <FontAwesome name="user" size={24} color={focused ? "#16247d": "#111"} /> 
+                 <FontAwesome name="user-circle-o" size={24} color={focused ? "#16247d": "#111"} /> 
             </View>
               )
             }
