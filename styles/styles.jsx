@@ -277,7 +277,7 @@ export const scrollCardStyles = StyleSheet.create({
   cont3Text: {
     fontSize: 20,
     color: "#444444",
-    fontWeight:'bold'
+    fontWeight: "bold",
   },
   rating: {
     flexDirection: "row",
@@ -369,15 +369,14 @@ export const featStyles = StyleSheet.create({
   },
   cont2: {
     flex: 1,
-    marginLeft:10,
-    marginTop:0,
+    marginLeft: 10,
+    marginTop: 0,
   },
-  cont3: {
-  },
+  cont3: {},
   cont3Text: {
     fontSize: 20,
     color: "#444444",
-    fontWeight:'bold'
+    fontWeight: "bold",
   },
   rating: {
     flexDirection: "row",
@@ -387,212 +386,211 @@ export const featStyles = StyleSheet.create({
   },
 });
 export const offerStyles = StyleSheet.create({
-    container: {
-      flex: 1,
-      justifyContent: "center",
-      alignItems: "center",
-    },
-  
-    Image: {
-      top: 0,
-      left: 0,
-      height: 300,
-      opacity: 1,
-    },
-    scroller: {
-      width: 400,
-      height: 100,
-    },
-    mainCard: {
-      flexDirection: "row",
-      justifyContent: "space-between", 
-      width: 335,
-      height: 130,
-      backgroundColor: "#DCDCDC",
-      margin: 10,
-      borderRadius: 30,
-      elevation: 5,
-      shadowColor: "#000",
-    },
-    scrolcontainer: {
-      flex: 1,
-    },
-    recomend: {
-      width: 350,
-      justifyContent: "space-between",
-      margin: 10,
-      shadowColor: "#767676",
-      shadowOpacity: 1,
-      shadowOffset: 1,
-      shadowRadius: 12,
-    },
-    recomendText: {
-      fontSize: 24,
-    },
-    Touchable: {
-      fontSize: 30,
-    },
-    recomendSee: {
-      fontSize: 16,
-      marginLeft:8,
-      color: "gray",
-    },
-    cardHolder: {
-      flex: 1,
-      padding: 10,
-    },
-    cardImage: {
-      width: 120,
-      height: 110,
-      borderRadius: 20,
-      margin: 10,
-    },
-  
-    ratingImg: {
-      width: 15,
-      height: 15,
-    },
-    details: {
-      flexDirection: "row",
-      justifyContent: "space-between",
-    },
-    cont1: {
-        flex:1,
-      fontSize: 20,
-      marginTop: 7,
-      fontWeight: "bold",
-    },
-    cont2: {
-      flex: 1,
-      width :200,
-    },
-    cont3: {
-      justifyContent: "flex-end",
-      margin: 10,
-    },
-    cont3Text: {
-      fontSize: 20,
-      color: "#444444",
-      fontWeight:'bold'
-    },
-    rating: {
-      flexDirection: "row",
-      width: 40,
-      justifyContent: "space-between",
-      marginBottom: 11,
-    },
-    btn: {
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "#053E80",
-        width:170,
-        height: 40,
-        borderRadius: 20,
-        marginTop:20,
-        marginBottom:10,
-      },
-      btnText: {
-        color: "white",
-        fontSize: 17,
-      },
-  });
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  Image: {
+    top: 0,
+    left: 0,
+    height: 300,
+    opacity: 1,
+  },
+  scroller: {
+    width: 400,
+    height: 100,
+  },
+  mainCard: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    width: 335,
+    height: 130,
+    backgroundColor: "#DCDCDC",
+    margin: 10,
+    borderRadius: 30,
+    elevation: 5,
+    shadowColor: "#000",
+  },
+  scrolcontainer: {
+    flex: 1,
+  },
+  recomend: {
+    width: 350,
+    justifyContent: "space-between",
+    margin: 10,
+    shadowColor: "#767676",
+    shadowOpacity: 1,
+    shadowOffset: 1,
+    shadowRadius: 12,
+  },
+  recomendText: {
+    fontSize: 24,
+  },
+  Touchable: {
+    fontSize: 30,
+  },
+  recomendSee: {
+    fontSize: 16,
+    marginLeft: 8,
+    color: "gray",
+  },
+  cardHolder: {
+    flex: 1,
+    padding: 10,
+  },
+  cardImage: {
+    width: 120,
+    height: 110,
+    borderRadius: 20,
+    margin: 10,
+  },
+
+  ratingImg: {
+    width: 15,
+    height: 15,
+  },
+  details: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  cont1: {
+    flex: 1,
+    fontSize: 20,
+    marginTop: 7,
+    fontWeight: "bold",
+  },
+  cont2: {
+    flex: 1,
+    width: 200,
+  },
+  cont3: {
+    justifyContent: "flex-end",
+    margin: 10,
+  },
+  cont3Text: {
+    fontSize: 20,
+    color: "#444444",
+    fontWeight: "bold",
+  },
+  rating: {
+    flexDirection: "row",
+    width: 40,
+    justifyContent: "space-between",
+    marginBottom: 11,
+  },
+  btn: {
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#053E80",
+    width: 170,
+    height: 40,
+    borderRadius: 20,
+    marginTop: 20,
+    marginBottom: 10,
+  },
+  btnText: {
+    color: "white",
+    fontSize: 17,
+  },
+});
 
 export const exploreStyles = StyleSheet.create({
-    container: {
-      flex: 1,
-      justifyContent: "center",
-      alignItems: "center",
-    },
-  
-    Image: {
-      top: 0,
-      left: 0,
-      height: 300,
-      opacity: 1,
-    },
-    scroller: {
-      width: 400,
-      height: 100,
-    },
-    mainCard: {
-      flex: 1,
-      justifyContent: "space-between",
-      gap: 5,
-      width: 180,
-      height: 200,
-      backgroundColor: "#DCDCDC",
-      margin: 10,
-      borderRadius: 10,
-      elevation: 5,
-      shadowColor: "#000",
-    },
-    scrolcontainer: {
-      flex: 1,
-    },
-    recomend: {
-      width: 350,
-      justifyContent: "space-between",
-      margin: 10,
-      shadowColor: "#767676",
-      shadowOpacity: 1,
-      shadowOffset: 1,
-      shadowRadius: 12,
-    },
-    Touchable: {
-      fontSize: 30,
-    },
-    recomendText: {
-      fontSize: 24,
-    },
-    recomendSee: {
-      fontSize: 18,
-      color: "gray",
-      marginLeft:5
-    },
-    cardHolder: {
-      flex: 1,
-      padding: 3,
-    },
-    cardImage: {
-      width:160,
-      height: 130,
-      borderRadius: 10,
-      marginLeft: 10,
-      marginRight: 10,
-      marginTop: 10,
-      marginBottom: 0,
-    },
-  
-    ratingImg: {
-      width: 15,
-      height: 15,
-    },
-    details: {
-      flexDirection: "row",
-      justifyContent: "space-between",
-    },
-    cont1: {
-      width: 120,
-      fontSize: 20,
-      marginTop: 7,
-      fontWeight: "bold",
-    },
-    cont2: {
-      flex: 1,
-      marginLeft:10,
-      marginTop:-10,
-    },
-    cont3: {
-    },
-    cont3Text: {
-      fontSize: 20,
-      color: "#444444",
-      fontWeight:'bold'
-    },
-    rating: {
-      flexDirection: "row",
-      width: 40,
-      justifyContent: "space-between",
-      marginBottom: 11,
-    },
-  });
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  Image: {
+    top: 0,
+    left: 0,
+    height: 300,
+    opacity: 1,
+  },
+  scroller: {
+    width: 400,
+    height: 100,
+  },
+  mainCard: {
+    flex: 1,
+    justifyContent: "space-between",
+    gap: 5,
+    width: 180,
+    height: 200,
+    backgroundColor: "#DCDCDC",
+    margin: 10,
+    borderRadius: 10,
+    elevation: 5,
+    shadowColor: "#000",
+  },
+  scrolcontainer: {
+    flex: 1,
+  },
+  recomend: {
+    width: 350,
+    justifyContent: "space-between",
+    margin: 10,
+    shadowColor: "#767676",
+    shadowOpacity: 1,
+    shadowOffset: 1,
+    shadowRadius: 12,
+  },
+  Touchable: {
+    fontSize: 30,
+  },
+  recomendText: {
+    fontSize: 24,
+  },
+  recomendSee: {
+    fontSize: 18,
+    color: "gray",
+    marginLeft: 6,
+  },
+  cardHolder: {
+    flex: 1,
+    padding: 3,
+  },
+  cardImage: {
+    width: 160,
+    height: 130,
+    borderRadius: 10,
+    marginLeft: 10,
+    marginRight: 10,
+    marginTop: 10,
+    marginBottom: 0,
+  },
+
+  ratingImg: {
+    width: 15,
+    height: 15,
+  },
+  details: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  cont1: {
+    width: 120,
+    fontSize: 20,
+    marginTop: 7,
+    fontWeight: "bold",
+  },
+  cont2: {
+    flex: 1,
+    marginLeft: 10,
+    marginTop: -10,
+  },
+  cont3: {},
+  cont3Text: {
+    fontSize: 20,
+    color: "#444444",
+    fontWeight: "bold",
+  },
+  rating: {
+    flexDirection: "row",
+    width: 40,
+    justifyContent: "space-between",
+    marginBottom: 11,
+  },
+});

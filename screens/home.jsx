@@ -4,6 +4,7 @@ import {
   Image,
   TouchableWithoutFeedback,
   Keyboard,
+  ScrollView,
 } from "react-native";
 import Header from "../components/header";
 import { homeStyles } from "../styles/styles";
@@ -15,6 +16,7 @@ import Explore from "../components/Explore";
 
 export default function Home() {
   return (
+    <ScrollView>
     <TouchableWithoutFeedback on onPress={() => Keyboard.dismiss()}>
       <View style={homeStyles.container}>
         <Image
@@ -30,5 +32,6 @@ export default function Home() {
         <Explore />
       </View>
     </TouchableWithoutFeedback>
+    </ScrollView>
   );
 }
