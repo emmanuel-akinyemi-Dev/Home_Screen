@@ -16,6 +16,7 @@ import Explore from "../components/Explore";
 
 export default function Home() {
   return (
+    <View style={homeStyles.container}>  
     <ScrollView>
     <TouchableWithoutFeedback on onPress={() => Keyboard.dismiss()}>
       <View style={homeStyles.container}>
@@ -33,5 +34,6 @@ export default function Home() {
       </View>
     </TouchableWithoutFeedback>
     </ScrollView>
+    </View>
   );
 }

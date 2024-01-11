@@ -13,7 +13,7 @@ export default function Card1() {
   return (
     <View style={cardStyles.container}>
       <View style={cardStyles.nav}>
-        <TouchableOpacity style={cardStyles.navtouchLeft}>
+        <TouchableOpacity style={cardStyles.navtouchLeft} color={ focused ?"#16247d": "#2C2C2C"} >
           <Text style={cardStyles.text}>Hotel</Text>
           <FontAwesome name="institution" size={20} color="#2C2C2C" />
         </TouchableOpacity>

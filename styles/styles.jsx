@@ -46,6 +46,7 @@ export const homeStyles = StyleSheet.create({
   container: {
     justifyContent: "center",
     alignItems: "center",
+    marginBottom:40
   },
 
   bgImage: {

@@ -29,7 +29,7 @@ const screenOptions = {
 
 function Navigator() {
   return (
-    <NavigationContainer>
+    <NavigationContainer >
 <Tab.Navigator screenOptions={screenOptions}>
           <Tab.Screen 
           name="Home" 
@@ -38,7 +38,7 @@ function Navigator() {
             tabBarIcon: ({focused})=>{
               return (
                 <View style={{alignItems: "center", justifyContent: "center"}}> 
-                  <FontAwesome name="home" size={27} color={focused ? "#16247d": "#111"} /> 
+                  <FontAwesome name="home" size={27} color={focused ? "#16247d":"#111"} /> 
             </View>
               )
             }

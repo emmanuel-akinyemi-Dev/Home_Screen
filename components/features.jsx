@@ -5,7 +5,7 @@ export default function feat() {
   return (
     <View style={featStyles.container}>
       <View style={featStyles.recomend}>
-        <Text style={featStyles.recomendText}> Recomendations</Text>
+        <Text style={featStyles.recomendText}>Features</Text>
         <Text style={featStyles.recomendSee}>See all</Text>
       </View>
       <View style={featStyles.cardHolder}>
